@@ -83,6 +83,8 @@ public class AddLowestPricedProductToCart {
 		// Logout of Application
 		driver.findElement(By.xpath("//button[.='Open Menu']")).click();
 		driver.findElement(By.linkText("Logout")).click();
+		
+		System.out.println("JI");
 
 	}
 
